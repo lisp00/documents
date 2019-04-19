@@ -1,0 +1,31 @@
+AWS IoT를 통해 클라우드로 세상을 연결하는 방법
+이종화 솔루션즈 아키텍트, AWS
+최원근 솔루션스 아키텍트, AWS
+
+AWS IoT는 수많은 사물인터넷에서 발생되는 물리 세계의 데이터를 고객이 쉽게 수집하고, 관리, 분석할 수있도록 많은 서비스를 제공하고 있습니다. 이번 세션에서는 AWS IoT Core 서비스와 함께 새로운 서비스들을사용해서 물리 세계의 많은 비지니스 문제점들을 이해하고, 분석할 수 있는 여러가지 모범 사례를 제공합니다.
+
+#강연 태그 : 난이도 200, 사물인터넷, IT 전문가 또는 기술 관리자, 솔루션 또는 시스템 아키텍트, 시스템 관리자, 데모
+
+
+IoT 아키텍쳐
+데이터 서비스 : 데이터 분석 / AWS IoT Analytics
+컨트롤 서비스 : IoT Core / IoT Device defender / IoT Device management
+디바이스 소프트웨어 : AWS ioT Greengrass / IoT Device SDk / FreeRTOS
+
+FreeRTOS : 마이크로 컨트롤러를 위한 ioT 운영체제 + 저전력 블루투스(BLE) 사용해서 연결 가능
+어째서 아마존에서 엣지에 관한 서비스를 제공을 하는가
+1. 물리 법칙 : 물리적인 속도나 거리에 대한 한계를 극복해야 한다(모두 클라우드로 처리할 수는 없다)
+2. 경제적 법칙
+3. 지역의 법 : 국가별로 데이터의 국경이동을 금할 수 있다. 
+
+IoT Greengrass : 엣지와 로컬의 Greengrass로 데이터 전송
+Connectors, Secrets Manager(로컬에서도 사용가능), 
+
+IoT Core : 디바이스 연결에 대한 보안 및 데이터의 안정적 처리 보장
+인증서비스, 디바이스 게이트웨이, 메시지 브로커, 룰 엔진, 디바이스 쉐도우, 레지스트리
+
+Device Management
+AWS IoT Things Graph
+
+IoT Analytics : Bring your own container : 개인별 분석 로직을 사용 가능. 
+AWS IoT SiteWise : 
