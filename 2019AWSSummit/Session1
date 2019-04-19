@@ -1,0 +1,25 @@
+09:00 09:50 기술트랙 5 AWS Amplify를 통한 손쉽고 빠른 모바일 애플리케이션 개발 세션
+
+AWS AppSync
+GraphQL은 API를 위한 쿼리 언어 이를 통해 쿼리 전달
+
+resolver : Appsync 해석기, 요청/응답 해석
+
+$amplify add api (예시)
+	type post method {
+		title : String
+		id : String
+	}
+
+
+amplify/backend/auth/cognito####/ 가 생성됨
+
+AWS Lambda -> Amazon S3 Public bucket 
+AWS DynamoDB
+Amazon
+
+Amplify, AppSync GraphQL API는 빠른 프로토타입 개발에 좋다
+뷰, 데이터 관점에서 애플리케이션 디자인
+모바일 애플리케이션의 개발은 작게 시작하고 지속적으로 반복하여 발전하는 방향이 좋다
+복잡한 로지긍ㄴ Lambda등의 백엔드에서 처리 클라이언트 로직은 가볍게 유지
+서버 사용을 최소화 하자
